@@ -52,7 +52,7 @@ def main():
     port = int(
         os.getenv(
             "VISUALISER_PORT",
-            "5000",
+            "5010",
         )
     )
 

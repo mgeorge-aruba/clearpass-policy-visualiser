@@ -28,6 +28,6 @@ RUN groupadd \
 
 USER visualiser
 
-EXPOSE 5000
+EXPOSE 5010
 
 CMD ["python", "server.py"]

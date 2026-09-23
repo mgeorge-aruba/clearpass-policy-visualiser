@@ -806,7 +806,7 @@ Docker Compose builds the Visualiser image and starts the application.
 
 When startup completes, open:
 
-`http://127.0.0.1:5000`
+`http://127.0.0.1:5010`
 
 On a new installation, the application starts without initialising the ClearPass caches and presents the Initial Setup page.
 
@@ -1427,7 +1427,7 @@ API-assisted configuration never deletes existing ClearPass objects and never au
 For Docker deployments:
 
 - The Visualiser container runs as the non-root `visualiser` user.
-- The application port is published to `127.0.0.1:5000` by default.
+- The application port is published to `127.0.0.1:5010` by default.
 - Persistent configuration is stored in the `clearpass-visualiser-data` Docker volume.
 - Sensitive configuration files should remain readable and writable only by the Visualiser user.
 
